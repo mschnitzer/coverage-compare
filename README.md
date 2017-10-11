@@ -11,7 +11,7 @@ This tool was created for the Open Build Service project to compare which files 
 5. Click the "Build" tab
 6. Download the `#rspec` and `#api` (minitest test suite) test results
 7. Copy the commit hash to the clipboard (see current URL)
-8. Run the script: ./compare_coverage_reports.rb [Commit-Hash] [rspec_results_file] [api_results_file]
+8. Run the script: `./compare_coverage_reports.rb [Commit-Hash] [rspec_results_file] [api_results_file]`
 9. Look at the Trello board you specified in the `settings.json` to view if it's working
 
 `settings.json` Notes:
