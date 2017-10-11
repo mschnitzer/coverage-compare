@@ -15,7 +15,7 @@ This tool was created for the Open Build Service project to compare which files 
 9. Look at the Trello board you specified in the `settings.json` to view if it's working
 
 `settings.json` Notes:
-* `trello_board` must have the ID to the trello board. The ID can be fetched via Trello's API:
+* `trello_board` must have the ID of the trello board. The ID can be fetched via Trello's API:
    ```
    curl 'https://api.trello.com/1/members/$YOUR_TRELLO_USER/boards?key=$YOUR_TRELLO_API_KEY&token=$YOUR_TRELLO_API_TOKEN'
    ```
